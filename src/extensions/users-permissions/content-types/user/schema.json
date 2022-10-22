@@ -74,6 +74,13 @@
       "relation": "oneToOne",
       "target": "api::district.district",
       "inversedBy": "user"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "ERKEK",
+        "BAYAN"
+      ]
     }
   }
 }
