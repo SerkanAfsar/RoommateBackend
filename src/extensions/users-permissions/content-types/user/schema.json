@@ -81,6 +81,12 @@
         "ERKEK",
         "BAYAN"
       ]
+    },
+    "advertisements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertisement.advertisement",
+      "mappedBy": "users_permissions_user"
     }
   }
 }
